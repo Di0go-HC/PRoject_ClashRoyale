@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torneio Clash</title>
+    <link rel="stylesheet" href="css/torneio.css">
+</head>
+<body>
+    <h1>Torneio Clash</h1>
+    
+    <!-- Seleção do número de jogadores -->
+    <label for="numPlayers">Selecione o número de jogadores:</label>
+    <select id="numPlayers">
+        <option value="4">4</option>
+        <option value="8">8</option>
+        <option value="16">16</option>
+        <option value="32">32</option>
+    </select>
+    <button id="confirmPlayers">Confirmar Número de Jogadores</button>
+
+    <!-- Área para entrada de nomes e torneio -->
+    <div id="playerInput" style="display: none;"></div>
+    <button id="startTournament" style="display: none;">Iniciar Torneio</button>
+    <div id="tournament"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
